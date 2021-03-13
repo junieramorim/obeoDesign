@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c2system:C2System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c2system="http://www.example.org/c2system">
+  <entities xsi:type="c2system:Team" name="T0" operates="//@approaches.0">
+    <members xsi:type="c2system:Team" name="T1" roleassignment="//@approaches.0/@roles[type='TASK_ALLOCATOR'] //@approaches.0/@roles[type='TASK_PERFORMER']" operates="//@approaches.1">
+      <members xsi:type="c2system:Agent" name="A1.1" roleassignment="//@approaches.1/@roles[type='C2_APPROACH_MANAGER'] //@approaches.1/@roles[type='TASK_ALLOCATOR'] //@approaches.1/@roles[type='TASK_PERFORMER']" poc="true" leader="true"/>
+      <members xsi:type="c2system:Agent" name="A1.2" roleassignment="//@approaches.1/@roles[type='C2_APPROACH_MANAGER'] //@approaches.1/@roles[type='TASK_ALLOCATOR'] //@approaches.1/@roles[type='TASK_PERFORMER']"/>
+      <members xsi:type="c2system:Agent" name="A1.3" roleassignment="//@approaches.1/@roles[type='C2_APPROACH_MANAGER'] //@approaches.1/@roles[type='TASK_ALLOCATOR'] //@approaches.1/@roles[type='TASK_PERFORMER']"/>
+    </members>
+    <members xsi:type="c2system:Team" name="T2" roleassignment="//@approaches.0/@roles[type='C2_APPROACH_MANAGER'] //@approaches.0/@roles[type='TASK_ALLOCATOR'] //@approaches.0/@roles[type='TASK_PERFORMER']" operates="//@approaches.2">
+      <members xsi:type="c2system:Agent" name="A2.1" roleassignment="//@approaches.2/@roles[type='TASK_PERFORMER'] //@approaches.2/@roles[type='C2_APPROACH_MANAGER'] //@approaches.2/@roles[type='TASK_ALLOCATOR']" poc="true" leader="true"/>
+      <members xsi:type="c2system:Agent" name="A2.2" roleassignment="//@approaches.2/@roles[type='TASK_PERFORMER']"/>
+      <members xsi:type="c2system:Agent" name="A2.3"/>
+      <members xsi:type="c2system:Agent" name="A2.4" roleassignment="//@approaches.2/@roles[type='TASK_PERFORMER']"/>
+    </members>
+    <members xsi:type="c2system:Team" name="T3" roleassignment="//@approaches.0/@roles[type='TASK_ALLOCATOR'] //@approaches.0/@roles[type='TASK_PERFORMER']" operates="//@approaches.3">
+      <members xsi:type="c2system:Team" name="T3.1" operates="//@approaches.5">
+        <members xsi:type="c2system:Agent" name="A3.1.1" roleassignment="//@approaches.5/@roles[type='TASK_ALLOCATOR'] //@approaches.5/@roles[type='TASK_PERFORMER']"/>
+        <members xsi:type="c2system:Agent" name="A3.1.2" roleassignment="//@approaches.5/@roles[type='TASK_ALLOCATOR'] //@approaches.5/@roles[type='TASK_PERFORMER']"/>
+        <members xsi:type="c2system:Agent" name="A3.1.3" roleassignment="//@approaches.5/@roles[type='C2_APPROACH_MANAGER'] //@approaches.5/@roles[type='TASK_ALLOCATOR'] //@approaches.5/@roles[type='TASK_PERFORMER']" poc="true" leader="true"/>
+      </members>
+      <members xsi:type="c2system:Team" name="T3.2" poc="true" operates="//@approaches.4">
+        <members xsi:type="c2system:Agent" name="A3.2.1" roleassignment="//@approaches.4/@roles[type='TASK_PERFORMER']"/>
+        <members xsi:type="c2system:Agent" name="A3.2.2" roleassignment="//@approaches.4/@roles[type='TASK_PERFORMER']"/>
+        <members xsi:type="c2system:Agent" name="A3.2.3" roleassignment="//@approaches.4/@roles[type='TASK_PERFORMER']"/>
+        <members xsi:type="c2system:Agent" name="A3.2.4" roleassignment="//@approaches.4/@roles[type='C2_APPROACH_MANAGER'] //@approaches.4/@roles[type='TASK_ALLOCATOR']" leader="true"/>
+        <members xsi:type="c2system:Agent" name="A3.2.5" roleassignment="//@approaches.4/@roles[type='C2_APPROACH_MANAGER'] //@approaches.4/@roles[type='TASK_ALLOCATOR']" poc="true" leader="true"/>
+        <members xsi:type="c2system:Agent" name="A3.2.6" roleassignment="//@approaches.4/@roles[type='TASK_PERFORMER']"/>
+        <members xsi:type="c2system:Agent" name="A3.2.7" roleassignment="//@approaches.4/@roles[type='TASK_PERFORMER']"/>
+      </members>
+      <members xsi:type="c2system:Team" name="T3.3" operates="//@approaches.6">
+        <members xsi:type="c2system:Agent" name="A3.3.1"/>
+        <members xsi:type="c2system:Agent" name="A3.3.2" roleassignment="//@approaches.6/@roles[type='TASK_PERFORMER'] //@approaches.6/@roles[type='TASK_ALLOCATOR'] //@approaches.6/@roles[type='C2_APPROACH_MANAGER']" poc="true" leader="true"/>
+        <members xsi:type="c2system:Agent" name="A3.3.3" roleassignment="//@approaches.6/@roles[type='TASK_PERFORMER']"/>
+        <members xsi:type="c2system:Agent" name="A3.3.4" roleassignment="//@approaches.6/@roles[type='TASK_PERFORMER']"/>
+      </members>
+    </members>
+  </entities>
+  <approaches name="TO_DECONFL" applies="//@entities.0">
+    <roles name="C2AM" entity="//@entities.0/@members.1"/>
+    <roles name="TA" type="TASK_ALLOCATOR" entity="//@entities.0/@members.0 //@entities.0/@members.1 //@entities.0/@members.2"/>
+    <roles name="TP" type="TASK_PERFORMER" entity="//@entities.0/@members.0 //@entities.0/@members.1 //@entities.0/@members.2"/>
+    <connections xsi:type="c2system:Inter" src="//@entities.0/@members.0/@members.0" tgt="//@entities.0/@members.1/@members.0"/>
+    <connections xsi:type="c2system:Inter" src="//@entities.0/@members.2/@members.1/@members.4" tgt="//@entities.0/@members.1/@members.0"/>
+    <connections xsi:type="c2system:Inter" src="//@entities.0/@members.2/@members.1/@members.4" tgt="//@entities.0/@members.0/@members.0"/>
+  </approaches>
+  <approaches name="CONFL_T1" type="CONFLICTED" applies="//@entities.0/@members.0">
+    <roles name="C2AM" entity="//@entities.0/@members.0/@members.0 //@entities.0/@members.0/@members.1 //@entities.0/@members.0/@members.2"/>
+    <roles name="TA" type="TASK_ALLOCATOR" entity="//@entities.0/@members.0/@members.0 //@entities.0/@members.0/@members.1 //@entities.0/@members.0/@members.2"/>
+    <roles name="TP" type="TASK_PERFORMER" entity="//@entities.0/@members.0/@members.0 //@entities.0/@members.0/@members.1 //@entities.0/@members.0/@members.2"/>
+  </approaches>
+  <approaches name="COORD_T2" type="COORDINATED" applies="//@entities.0/@members.1">
+    <roles name="C2AM" entity="//@entities.0/@members.1/@members.0"/>
+    <roles name="TA" type="TASK_ALLOCATOR" entity="//@entities.0/@members.1/@members.0"/>
+    <roles name="TP" type="TASK_PERFORMER" entity="//@entities.0/@members.1/@members.0 //@entities.0/@members.1/@members.1 //@entities.0/@members.1/@members.3"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.1/@members.0" tgt="//@entities.0/@members.1/@members.3"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.1/@members.0" tgt="//@entities.0/@members.1/@members.1"/>
+  </approaches>
+  <approaches name="DECONFL_T3" applies="//@entities.0/@members.2">
+    <connections xsi:type="c2system:Inter" src="//@entities.0/@members.2/@members.0/@members.2" tgt="//@entities.0/@members.2/@members.1/@members.4"/>
+    <connections xsi:type="c2system:Inter" src="//@entities.0/@members.2/@members.0/@members.2" tgt="//@entities.0/@members.2/@members.2/@members.1"/>
+    <connections xsi:type="c2system:Inter" src="//@entities.0/@members.2/@members.2/@members.1" tgt="//@entities.0/@members.2/@members.1/@members.4"/>
+  </approaches>
+  <approaches name="COLLAB_T3.2" type="COLLABORATIVE" applies="//@entities.0/@members.2/@members.1">
+    <roles name="C2AM" entity="//@entities.0/@members.2/@members.1/@members.3 //@entities.0/@members.2/@members.1/@members.4"/>
+    <roles name="TA" type="TASK_ALLOCATOR" entity="//@entities.0/@members.2/@members.1/@members.3 //@entities.0/@members.2/@members.1/@members.4"/>
+    <roles name="TP" type="TASK_PERFORMER" entity="//@entities.0/@members.2/@members.1/@members.0 //@entities.0/@members.2/@members.1/@members.1 //@entities.0/@members.2/@members.1/@members.2 //@entities.0/@members.2/@members.1/@members.5 //@entities.0/@members.2/@members.1/@members.6"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.1/@members.3" tgt="//@entities.0/@members.2/@members.1/@members.0"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.1/@members.3" tgt="//@entities.0/@members.2/@members.1/@members.1"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.1/@members.3" tgt="//@entities.0/@members.2/@members.1/@members.2"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.1/@members.3" tgt="//@entities.0/@members.2/@members.1/@members.4"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.1/@members.4" tgt="//@entities.0/@members.2/@members.1/@members.6"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.1/@members.4" tgt="//@entities.0/@members.2/@members.1/@members.5"/>
+  </approaches>
+  <approaches name="DECONFL_T3.1" applies="//@entities.0/@members.2/@members.0">
+    <roles name="C2AM" entity="//@entities.0/@members.2/@members.0/@members.2"/>
+    <roles name="TA" type="TASK_ALLOCATOR" entity="//@entities.0/@members.2/@members.0/@members.0 //@entities.0/@members.2/@members.0/@members.1 //@entities.0/@members.2/@members.0/@members.2"/>
+    <roles name="TP" type="TASK_PERFORMER" entity="//@entities.0/@members.2/@members.0/@members.0 //@entities.0/@members.2/@members.0/@members.1 //@entities.0/@members.2/@members.0/@members.2"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.0/@members.0" tgt="//@entities.0/@members.2/@members.0/@members.1"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.0/@members.1" tgt="//@entities.0/@members.2/@members.0/@members.2"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.0/@members.2" tgt="//@entities.0/@members.2/@members.0/@members.0"/>
+  </approaches>
+  <approaches name="DECONFL_T3.3" applies="//@entities.0/@members.2/@members.2">
+    <roles name="C2AM" entity="//@entities.0/@members.2/@members.2/@members.1"/>
+    <roles name="TA" type="TASK_ALLOCATOR" entity="//@entities.0/@members.2/@members.2/@members.1"/>
+    <roles name="TP" type="TASK_PERFORMER" entity="//@entities.0/@members.2/@members.2/@members.1 //@entities.0/@members.2/@members.2/@members.2 //@entities.0/@members.2/@members.2/@members.3"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.2/@members.1" tgt="//@entities.0/@members.2/@members.2/@members.2"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.2/@members.2" tgt="//@entities.0/@members.2/@members.2/@members.3"/>
+    <connections xsi:type="c2system:Intra" src="//@entities.0/@members.2/@members.2/@members.3" tgt="//@entities.0/@members.2/@members.2/@members.1"/>
+  </approaches>
+</c2system:C2System>

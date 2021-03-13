@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c2system:C2System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c2system="http://www.example.org/c2system">
+  <entities xsi:type="c2system:Team" label="T1" id="1" operates="//@approaches.0">
+    <entities xsi:type="c2system:Agent" label="A1" id="1"/>
+    <entities xsi:type="c2system:Agent" label="A2" id="2"/>
+    <entities xsi:type="c2system:Agent" label="A3" id="3" tasks="//@missions.0/@tasks.0"/>
+  </entities>
+  <missions id="1">
+    <tasks id="1" entity="//@entities.0/@entities.2"/>
+  </missions>
+  <approaches label="DECONFLICTED"/>
+</c2system:C2System>

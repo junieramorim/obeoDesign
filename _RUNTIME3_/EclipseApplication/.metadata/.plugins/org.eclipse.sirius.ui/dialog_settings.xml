@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExportRepresentationsAsImagesDialog">
+		<item key="ExportRepresentationsAsImagesDialog.imageFormat" value="PNG"/>
+		<list key="ExportRepresentationsAsImagesDialog.file">
+			<item value="/Users/junier/Downloads"/>
+			<item value="/Users/junier/Downloads/:Volumes:HD2:obeoDesigner:_RUNTIME2_:EclipseApplication:br.unb.cic.c2system.case1:c2System.png"/>
+		</list>
+	</section>
+</section>

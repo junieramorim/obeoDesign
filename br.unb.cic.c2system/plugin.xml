@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated c2system -->
+      <package
+            uri="http://www.example.org/c2system"
+            class="br.unb.cic.c2system.C2systemPackage"
+            genModel="model/c2system.genmodel"/>
+   </extension>
+
+</plugin>

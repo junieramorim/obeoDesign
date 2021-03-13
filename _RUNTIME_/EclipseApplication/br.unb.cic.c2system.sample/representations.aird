@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c2system="http://www.example.org/c2system" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_Wd2HsDUjEeuhLriwB_TOjA" selectedViews="_FjNWEDUkEeuhLriwB_TOjA" version="14.3.1.202003261200">
+    <semanticResources>My.c2system</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_FjNWEDUkEeuhLriwB_TOjA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_jV19UTWxEeuljrQUzsu39g" name="new c2System" repPath="#_jV1WQDWxEeuljrQUzsu39g" changeId="f76b16b0-3924-4b53-830c-21118fc52e2d">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']"/>
+        <target xmi:type="c2system:C2System" href="My.c2system#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_jV1WQDWxEeuljrQUzsu39g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_jV19UjWxEeuljrQUzsu39g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_jV19UzWxEeuljrQUzsu39g" type="Sirius" element="_jV1WQDWxEeuljrQUzsu39g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Oiq-cTWzEeuM89pgbcn2jQ" type="2001" element="_OiqXYDWzEeuM89pgbcn2jQ">
+          <children xmi:type="notation:Node" xmi:id="_OirlgDWzEeuM89pgbcn2jQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OirlgTWzEeuM89pgbcn2jQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OirlgjWzEeuM89pgbcn2jQ" type="3016" element="_OiqXYTWzEeuM89pgbcn2jQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OirlgzWzEeuM89pgbcn2jQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OirlhDWzEeuM89pgbcn2jQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Oiq-cjWzEeuM89pgbcn2jQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Oiq-czWzEeuM89pgbcn2jQ" x="198" y="90" width="30" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_jV19VDWxEeuljrQUzsu39g"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_jV2kYzWxEeuljrQUzsu39g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_jV2kZDWxEeuljrQUzsu39g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OiqXYDWzEeuM89pgbcn2jQ" name="T1" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="c2system:Team" href="My.c2system#//@entities.0"/>
+      <semanticElements xmi:type="c2system:Team" href="My.c2system#//@entities.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_OiqXYTWzEeuM89pgbcn2jQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='team']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='team']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_jV1WQTWxEeuljrQUzsu39g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer"/>
+    <target xmi:type="c2system:C2System" href="My.c2system#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

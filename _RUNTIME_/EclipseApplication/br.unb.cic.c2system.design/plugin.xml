@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="br.unb.cic.c2system.design.Activator"
+               id="br.unb.cic.c2system.design"
+	       name="c2system">
+    </component>
+  </extension>
+</plugin>

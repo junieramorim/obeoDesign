@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated c2system -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="br.unb.cic.c2system.presentation.C2systemModelWizardID"
+            name="%_UI_C2systemModelWizard_label"
+            class="br.unb.cic.c2system.presentation.C2systemModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/C2systemModelFile.gif">
+         <description>%_UI_C2systemModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated c2system -->
+      <editor
+            id="br.unb.cic.c2system.presentation.C2systemEditorID"
+            name="%_UI_C2systemEditor_label"
+            icon="icons/full/obj16/C2systemModelFile.gif"
+            extensions="c2system"
+            class="br.unb.cic.c2system.presentation.C2systemEditor"
+            contributorClass="br.unb.cic.c2system.presentation.C2systemActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

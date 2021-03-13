@@ -1,0 +1,26 @@
+INDEX VERSION 1.131+/Volumes/HD2/obeoDesigner/_RUNTIME_/EclipseApplication/.metadata/.plugins/org.eclipse.jdt.core
+1283209994.index
+3979177679.index
+1302768919.index
+142822354.index
+96218539.index
+1781198159.index
+2826120099.index
+3643343589.index
+477329371.index
+925224545.index
+1280105324.index
+2411216874.index
+195678700.index
+3411694999.index
+2251385001.index
+1969111643.index
+2804610727.index
+4221471820.index
+1731940133.index
+179841868.index
+2283684938.index
+2581582470.index
+3933721263.index
+1718401902.index
+135470842.index

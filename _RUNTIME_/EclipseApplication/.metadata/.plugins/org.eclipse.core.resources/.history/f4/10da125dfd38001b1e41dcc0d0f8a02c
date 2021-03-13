@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c2system="http://www.example.org/c2system" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_nQCFgDWyEeuM89pgbcn2jQ" selectedViews="_43frcDWyEeuM89pgbcn2jQ" version="14.3.1.202003261200">
+    <semanticResources>My.c2system</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_43frcDWyEeuM89pgbcn2jQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="__KMJwTZ8Eeu-ke5CHXw6TA" name="new c2System" repPath="#__JxTADZ8Eeu-ke5CHXw6TA" changeId="0b857ab1-5684-4275-96be-073db187d497">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']"/>
+        <target xmi:type="c2system:C2System" href="My.c2system#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="__JxTADZ8Eeu-ke5CHXw6TA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__KiIADZ8Eeu-ke5CHXw6TA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="__KiIATZ8Eeu-ke5CHXw6TA" type="Sirius" element="__JxTADZ8Eeu-ke5CHXw6TA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_eQUj0Di4EeuNysMt4iLPiw" type="2001" element="_eP9-gDi4EeuNysMt4iLPiw">
+          <children xmi:type="notation:Node" xmi:id="_eQVK4Di4EeuNysMt4iLPiw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_eQVK4Ti4EeuNysMt4iLPiw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eQXnIDi4EeuNysMt4iLPiw" type="3003" element="_eP9-gTi4EeuNysMt4iLPiw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_eQXnITi4EeuNysMt4iLPiw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eQXnIji4EeuNysMt4iLPiw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_eQUj0Ti4EeuNysMt4iLPiw" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eQUj0ji4EeuNysMt4iLPiw" x="639" y="117" width="262" height="217"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_eQI9oDi4EeuNysMt4iLPiw" type="2001" element="_eP4e8Di4EeuNysMt4iLPiw">
+          <children xmi:type="notation:Node" xmi:id="_eQOdMDi4EeuNysMt4iLPiw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_eQOdMTi4EeuNysMt4iLPiw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eQWZADi4EeuNysMt4iLPiw" type="3005" element="_eP5GADi4EeuNysMt4iLPiw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_eQWZATi4EeuNysMt4iLPiw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eQWZAji4EeuNysMt4iLPiw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_eQI9oTi4EeuNysMt4iLPiw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eQI9oji4EeuNysMt4iLPiw" x="747" y="261" width="57" height="57"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_eQTVsDi4EeuNysMt4iLPiw" type="2001" element="_eP6UITi4EeuNysMt4iLPiw">
+          <children xmi:type="notation:Node" xmi:id="_eQT8wDi4EeuNysMt4iLPiw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_eQT8wTi4EeuNysMt4iLPiw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eQXAEDi4EeuNysMt4iLPiw" type="3005" element="_eP6UIji4EeuNysMt4iLPiw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_eQXAETi4EeuNysMt4iLPiw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eQXAEji4EeuNysMt4iLPiw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_eQTVsTi4EeuNysMt4iLPiw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eQTVsji4EeuNysMt4iLPiw" x="738" y="153" width="57" height="57"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CWEM4DaeEeu-ke5CHXw6TA" type="2001" element="_CUii4DaeEeu-ke5CHXw6TA">
+          <children xmi:type="notation:Node" xmi:id="_CWEz8DaeEeu-ke5CHXw6TA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CWEz8TaeEeu-ke5CHXw6TA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWGCEDaeEeu-ke5CHXw6TA" type="3003" element="_CUii4TaeEeu-ke5CHXw6TA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CWGCETaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWGCEjaeEeu-ke5CHXw6TA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CWEM4TaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWEM4jaeEeu-ke5CHXw6TA" y="81" width="415" height="361"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CV2KcDaeEeu-ke5CHXw6TA" type="2001" element="_CUeRcDaeEeu-ke5CHXw6TA">
+          <children xmi:type="notation:Node" xmi:id="_CV2KczaeEeu-ke5CHXw6TA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CV2KdDaeEeu-ke5CHXw6TA" x="-15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWEz8jaeEeu-ke5CHXw6TA" type="3005" element="_CUe4gDaeEeu-ke5CHXw6TA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CWEz8zaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWEz9DaeEeu-ke5CHXw6TA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z_QPQDafEeu-ke5CHXw6TA" type="3001" element="_Z9THdDafEeu-ke5CHXw6TA">
+            <children xmi:type="notation:Node" xmi:id="_Z_Q2UDafEeu-ke5CHXw6TA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z_Q2UTafEeu-ke5CHXw6TA" x="-36" y="16"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nGrRIDaiEeu-ke5CHXw6TA" type="3014" element="_nFHx8TaiEeu-ke5CHXw6TA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nGrRITaiEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nGrRIjaiEeu-ke5CHXw6TA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_QPQTafEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_QPQjafEeu-ke5CHXw6TA" x="-36" y="27" width="44" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z_RdYDafEeu-ke5CHXw6TA" type="3001" element="_Z9U8oTafEeu-ke5CHXw6TA">
+            <children xmi:type="notation:Node" xmi:id="_Z_SEcDafEeu-ke5CHXw6TA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z_SEcTafEeu-ke5CHXw6TA" x="14" y="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nGr4MDaiEeu-ke5CHXw6TA" type="3014" element="_nFIZATaiEeu-ke5CHXw6TA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nGr4MTaiEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nGr4MjaiEeu-ke5CHXw6TA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_RdYTafEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_RdYjafEeu-ke5CHXw6TA" x="9" y="49" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z_SrgDafEeu-ke5CHXw6TA" type="3001" element="_Z9VjsTafEeu-ke5CHXw6TA">
+            <children xmi:type="notation:Node" xmi:id="_Z_SrgzafEeu-ke5CHXw6TA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z_SrhDafEeu-ke5CHXw6TA" x="31" y="3"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nGr4MzaiEeu-ke5CHXw6TA" type="3014" element="_nFIZBDaiEeu-ke5CHXw6TA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nGr4NDaiEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nGr4NTaiEeu-ke5CHXw6TA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_SrgTafEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_SrgjafEeu-ke5CHXw6TA" x="49" y="-43" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CV2KcTaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CV2KcjaeEeu-ke5CHXw6TA" x="90" y="288" width="57" height="57"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CV2xgDaeEeu-ke5CHXw6TA" type="2001" element="_CUe4gjaeEeu-ke5CHXw6TA">
+          <children xmi:type="notation:Node" xmi:id="_CV3YkDaeEeu-ke5CHXw6TA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CV3YkTaeEeu-ke5CHXw6TA" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWFbADaeEeu-ke5CHXw6TA" type="3005" element="_CUe4gzaeEeu-ke5CHXw6TA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CWFbATaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWFbAjaeEeu-ke5CHXw6TA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z_ZZNTafEeu-ke5CHXw6TA" type="3001" element="_Z9XY5TafEeu-ke5CHXw6TA">
+            <children xmi:type="notation:Node" xmi:id="_Z_aAQDafEeu-ke5CHXw6TA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z_aAQTafEeu-ke5CHXw6TA" x="14" y="-16"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nGr4NjaiEeu-ke5CHXw6TA" type="3014" element="_nFJAEDaiEeu-ke5CHXw6TA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nGr4NzaiEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nGr4ODaiEeu-ke5CHXw6TA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_ZZNjafEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_ZZNzafEeu-ke5CHXw6TA" x="18" y="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z_aAQjafEeu-ke5CHXw6TA" type="3001" element="_Z9XY6DafEeu-ke5CHXw6TA">
+            <children xmi:type="notation:Node" xmi:id="_Z_aARTafEeu-ke5CHXw6TA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z_aARjafEeu-ke5CHXw6TA" x="31" y="9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nGr4OTaiEeu-ke5CHXw6TA" type="3014" element="_nFJAEzaiEeu-ke5CHXw6TA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nGr4OjaiEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nGr4OzaiEeu-ke5CHXw6TA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_aAQzafEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_aARDafEeu-ke5CHXw6TA" x="18" y="-22" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CV2xgTaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CV2xgjaeEeu-ke5CHXw6TA" x="90" y="117" width="57" height="57"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CV3_oDaeEeu-ke5CHXw6TA" type="2001" element="_CUffkTaeEeu-ke5CHXw6TA">
+          <children xmi:type="notation:Node" xmi:id="_CV3_ozaeEeu-ke5CHXw6TA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CV3_pDaeEeu-ke5CHXw6TA" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWFbAzaeEeu-ke5CHXw6TA" type="3005" element="_CUffkjaeEeu-ke5CHXw6TA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CWFbBDaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWFbBTaeEeu-ke5CHXw6TA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z_gG4DafEeu-ke5CHXw6TA" type="3001" element="_Z9Z1IDafEeu-ke5CHXw6TA">
+            <children xmi:type="notation:Node" xmi:id="_Z_gG4zafEeu-ke5CHXw6TA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z_gG5DafEeu-ke5CHXw6TA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nGsfQDaiEeu-ke5CHXw6TA" type="3014" element="_nFJAFjaiEeu-ke5CHXw6TA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nGsfQTaiEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nGsfQjaiEeu-ke5CHXw6TA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_gG4TafEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_gG4jafEeu-ke5CHXw6TA" x="18" y="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z_gG5TafEeu-ke5CHXw6TA" type="3001" element="_Z9Z1IzafEeu-ke5CHXw6TA">
+            <children xmi:type="notation:Node" xmi:id="_Z_gG6DafEeu-ke5CHXw6TA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z_gG6TafEeu-ke5CHXw6TA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nGsfQzaiEeu-ke5CHXw6TA" type="3014" element="_nFJAGTaiEeu-ke5CHXw6TA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nGsfRDaiEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nGsfRTaiEeu-ke5CHXw6TA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_gG5jafEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_gG5zafEeu-ke5CHXw6TA" x="18" y="-22" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CV3_oTaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CV3_ojaeEeu-ke5CHXw6TA" x="297" y="126" width="57" height="57"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CV4msDaeEeu-ke5CHXw6TA" type="2001" element="_CUfflDaeEeu-ke5CHXw6TA">
+          <children xmi:type="notation:Node" xmi:id="_CV5NwDaeEeu-ke5CHXw6TA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CV5NwTaeEeu-ke5CHXw6TA" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWFbBjaeEeu-ke5CHXw6TA" type="3005" element="_CUgGoDaeEeu-ke5CHXw6TA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CWFbBzaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWFbCDaeEeu-ke5CHXw6TA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z_mNgjafEeu-ke5CHXw6TA" type="3001" element="_Z9cRaTafEeu-ke5CHXw6TA">
+            <children xmi:type="notation:Node" xmi:id="_Z_mNhTafEeu-ke5CHXw6TA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z_mNhjafEeu-ke5CHXw6TA" x="31" y="9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nGsfRjaiEeu-ke5CHXw6TA" type="3014" element="_nFJnITaiEeu-ke5CHXw6TA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nGsfRzaiEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nGsfSDaiEeu-ke5CHXw6TA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_mNgzafEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_mNhDafEeu-ke5CHXw6TA" x="18" y="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z_m0kDafEeu-ke5CHXw6TA" type="3001" element="_Z9c4cDafEeu-ke5CHXw6TA">
+            <children xmi:type="notation:Node" xmi:id="_Z_nboDafEeu-ke5CHXw6TA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z_nboTafEeu-ke5CHXw6TA" x="14" y="-16"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nGsfSTaiEeu-ke5CHXw6TA" type="3014" element="_nFJnJDaiEeu-ke5CHXw6TA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nGsfSjaiEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nGsfSzaiEeu-ke5CHXw6TA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_m0kTafEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_m0kjafEeu-ke5CHXw6TA" x="18" y="-22" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CV4msTaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CV4msjaeEeu-ke5CHXw6TA" x="234" y="351" width="57" height="57"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="__KiIAjZ8Eeu-ke5CHXw6TA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_CWGCEzaeEeu-ke5CHXw6TA" type="4001" element="_CUjxADaeEeu-ke5CHXw6TA" source="_CV2KcDaeEeu-ke5CHXw6TA" target="_CV2xgDaeEeu-ke5CHXw6TA">
+          <children xmi:type="notation:Node" xmi:id="_CWGpIDaeEeu-ke5CHXw6TA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWGpITaeEeu-ke5CHXw6TA" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWGpIjaeEeu-ke5CHXw6TA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWGpIzaeEeu-ke5CHXw6TA" x="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWGpJDaeEeu-ke5CHXw6TA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWGpJTaeEeu-ke5CHXw6TA" x="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CWGCFDaeEeu-ke5CHXw6TA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CWGCFTaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CWGCFjaeEeu-ke5CHXw6TA" points="[0, -28, 0, 143]$[0, -142, 0, 29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWHQMDaeEeu-ke5CHXw6TA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWHQMTaeEeu-ke5CHXw6TA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CWHQMjaeEeu-ke5CHXw6TA" type="4001" element="_CUjxBTaeEeu-ke5CHXw6TA" source="_CV2xgDaeEeu-ke5CHXw6TA" target="_CV3_oDaeEeu-ke5CHXw6TA">
+          <children xmi:type="notation:Node" xmi:id="_CWHQNjaeEeu-ke5CHXw6TA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWHQNzaeEeu-ke5CHXw6TA" x="-11" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWH3QDaeEeu-ke5CHXw6TA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWH3QTaeEeu-ke5CHXw6TA" x="8" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWH3QjaeEeu-ke5CHXw6TA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWH3QzaeEeu-ke5CHXw6TA" x="8" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CWHQMzaeEeu-ke5CHXw6TA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CWHQNDaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CWHQNTaeEeu-ke5CHXw6TA" points="[29, 1, -178, -8]$[179, 7, -28, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWIeUDaeEeu-ke5CHXw6TA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWIeUTaeEeu-ke5CHXw6TA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CWIeUjaeEeu-ke5CHXw6TA" type="4001" element="_CUkYFDaeEeu-ke5CHXw6TA" source="_CV3_oDaeEeu-ke5CHXw6TA" target="_CV4msDaeEeu-ke5CHXw6TA">
+          <children xmi:type="notation:Node" xmi:id="_CWIeVjaeEeu-ke5CHXw6TA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWIeVzaeEeu-ke5CHXw6TA" x="-7" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWIeWDaeEeu-ke5CHXw6TA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWIeWTaeEeu-ke5CHXw6TA" x="5" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWIeWjaeEeu-ke5CHXw6TA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWIeWzaeEeu-ke5CHXw6TA" x="5" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CWIeUzaeEeu-ke5CHXw6TA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CWIeVDaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CWIeVTaeEeu-ke5CHXw6TA" points="[-9, 29, 54, -196]$[-56, 197, 7, -28]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWJFYDaeEeu-ke5CHXw6TA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWJFYTaeEeu-ke5CHXw6TA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CWJFYjaeEeu-ke5CHXw6TA" type="4001" element="_CUk_IjaeEeu-ke5CHXw6TA" source="_CV4msDaeEeu-ke5CHXw6TA" target="_CV2KcDaeEeu-ke5CHXw6TA">
+          <children xmi:type="notation:Node" xmi:id="_CWJFZjaeEeu-ke5CHXw6TA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWJFZzaeEeu-ke5CHXw6TA" x="6" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWJFaDaeEeu-ke5CHXw6TA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWJFaTaeEeu-ke5CHXw6TA" x="-4" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CWJFajaeEeu-ke5CHXw6TA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWJFazaeEeu-ke5CHXw6TA" x="-3" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CWJFYzaeEeu-ke5CHXw6TA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CWJFZDaeEeu-ke5CHXw6TA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CWJFZTaeEeu-ke5CHXw6TA" points="[-28, -13, 116, 50]$[-115, -51, 29, 12]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWJscDaeEeu-ke5CHXw6TA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWJscTaeEeu-ke5CHXw6TA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_eQZcUDi4EeuNysMt4iLPiw" type="4001" element="_eP_zwDi4EeuNysMt4iLPiw" source="_CWEM4DaeEeu-ke5CHXw6TA" target="_eQUj0Di4EeuNysMt4iLPiw">
+          <children xmi:type="notation:Node" xmi:id="_eQaDYDi4EeuNysMt4iLPiw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eQaDYTi4EeuNysMt4iLPiw" x="-17" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eQbRgDi4EeuNysMt4iLPiw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eQbRgTi4EeuNysMt4iLPiw" x="-1" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eQb4kDi4EeuNysMt4iLPiw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eQb4kTi4EeuNysMt4iLPiw" x="8" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_eQZcUTi4EeuNysMt4iLPiw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_eQZcUji4EeuNysMt4iLPiw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eQZcUzi4EeuNysMt4iLPiw" points="[208, -14, -355, 22]$[432, -28, -131, 8]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eQe74Di4EeuNysMt4iLPiw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eQfi8Di4EeuNysMt4iLPiw" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__K6igDZ8Eeu-ke5CHXw6TA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="__K6igTZ8Eeu-ke5CHXw6TA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_CUeRcDaeEeu-ke5CHXw6TA" name="A1" outgoingEdges="_CUjxADaeEeu-ke5CHXw6TA" incomingEdges="_CUk_IjaeEeu-ke5CHXw6TA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="c2system:Agent" href="My.c2system#//@entities.0/@members.0"/>
+      <semanticElements xmi:type="c2system:Agent" href="My.c2system#//@entities.0/@members.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Z9THdDafEeu-ke5CHXw6TA" name="C2AM" tooltipText="C2AM" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="c2system:C2ApproachManager" href="My.c2system#//@entities.0/@members.0/@roles.0"/>
+        <semanticElements xmi:type="c2system:C2ApproachManager" href="My.c2system#//@entities.0/@members.0/@roles.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_nFHx8TaiEeu-ke5CHXw6TA" labelSize="10" showIcon="false" labelPosition="node" id="role">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Z9U8oTafEeu-ke5CHXw6TA" name="TP" tooltipText="TP" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="c2system:TaskPerformer" href="My.c2system#//@entities.0/@members.0/@roles.1"/>
+        <semanticElements xmi:type="c2system:TaskPerformer" href="My.c2system#//@entities.0/@members.0/@roles.1"/>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_nFIZATaiEeu-ke5CHXw6TA" labelSize="10" showIcon="false" labelPosition="node" id="role">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Z9VjsTafEeu-ke5CHXw6TA" name="TA" tooltipText="TA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="c2system:TaskAllocator" href="My.c2system#//@entities.0/@members.0/@roles.2"/>
+        <semanticElements xmi:type="c2system:TaskAllocator" href="My.c2system#//@entities.0/@members.0/@roles.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_nFIZBDaiEeu-ke5CHXw6TA" labelSize="10" showIcon="false" labelPosition="node" id="role">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_CUe4gDaeEeu-ke5CHXw6TA" labelSize="12" showIcon="false" workspacePath="/br.unb.cic.c2system.design/icon/UAV.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_CUe4gjaeEeu-ke5CHXw6TA" name="A2" outgoingEdges="_CUjxBTaeEeu-ke5CHXw6TA" incomingEdges="_CUjxADaeEeu-ke5CHXw6TA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="c2system:Agent" href="My.c2system#//@entities.0/@members.1"/>
+      <semanticElements xmi:type="c2system:Agent" href="My.c2system#//@entities.0/@members.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Z9XY5TafEeu-ke5CHXw6TA" name="TP" tooltipText="TP" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="c2system:TaskPerformer" href="My.c2system#//@entities.0/@members.1/@roles.0"/>
+        <semanticElements xmi:type="c2system:TaskPerformer" href="My.c2system#//@entities.0/@members.1/@roles.0"/>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_nFJAEDaiEeu-ke5CHXw6TA" labelSize="10" showIcon="false" labelPosition="node" id="role">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Z9XY6DafEeu-ke5CHXw6TA" name="TA" tooltipText="TA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="c2system:TaskAllocator" href="My.c2system#//@entities.0/@members.1/@roles.1"/>
+        <semanticElements xmi:type="c2system:TaskAllocator" href="My.c2system#//@entities.0/@members.1/@roles.1"/>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_nFJAEzaiEeu-ke5CHXw6TA" labelSize="10" showIcon="false" labelPosition="node" id="role">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_CUe4gzaeEeu-ke5CHXw6TA" labelSize="12" showIcon="false" workspacePath="/br.unb.cic.c2system.design/icon/UAV.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_CUffkTaeEeu-ke5CHXw6TA" name="A3" outgoingEdges="_CUkYFDaeEeu-ke5CHXw6TA" incomingEdges="_CUjxBTaeEeu-ke5CHXw6TA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="c2system:Agent" href="My.c2system#//@entities.0/@members.2"/>
+      <semanticElements xmi:type="c2system:Agent" href="My.c2system#//@entities.0/@members.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Z9Z1IDafEeu-ke5CHXw6TA" name="TP" tooltipText="TP" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="c2system:TaskPerformer" href="My.c2system#//@entities.0/@members.2/@roles.0"/>
+        <semanticElements xmi:type="c2system:TaskPerformer" href="My.c2system#//@entities.0/@members.2/@roles.0"/>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_nFJAFjaiEeu-ke5CHXw6TA" labelSize="10" showIcon="false" labelPosition="node" id="role">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Z9Z1IzafEeu-ke5CHXw6TA" name="TA" tooltipText="TA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="c2system:TaskAllocator" href="My.c2system#//@entities.0/@members.2/@roles.1"/>
+        <semanticElements xmi:type="c2system:TaskAllocator" href="My.c2system#//@entities.0/@members.2/@roles.1"/>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_nFJAGTaiEeu-ke5CHXw6TA" labelSize="10" showIcon="false" labelPosition="node" id="role">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_CUffkjaeEeu-ke5CHXw6TA" labelSize="12" showIcon="false" workspacePath="/br.unb.cic.c2system.design/icon/UAV.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_CUfflDaeEeu-ke5CHXw6TA" name="A4" outgoingEdges="_CUk_IjaeEeu-ke5CHXw6TA" incomingEdges="_CUkYFDaeEeu-ke5CHXw6TA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="c2system:Agent" href="My.c2system#//@entities.0/@members.3"/>
+      <semanticElements xmi:type="c2system:Agent" href="My.c2system#//@entities.0/@members.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Z9cRaTafEeu-ke5CHXw6TA" name="TP" tooltipText="TP" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="c2system:TaskPerformer" href="My.c2system#//@entities.0/@members.3/@roles.0"/>
+        <semanticElements xmi:type="c2system:TaskPerformer" href="My.c2system#//@entities.0/@members.3/@roles.0"/>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_nFJnITaiEeu-ke5CHXw6TA" labelSize="10" showIcon="false" labelPosition="node" id="role">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Z9c4cDafEeu-ke5CHXw6TA" name="TA" tooltipText="TA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="c2system:TaskAllocator" href="My.c2system#//@entities.0/@members.3/@roles.1"/>
+        <semanticElements xmi:type="c2system:TaskAllocator" href="My.c2system#//@entities.0/@members.3/@roles.1"/>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_nFJnJDaiEeu-ke5CHXw6TA" labelSize="10" showIcon="false" labelPosition="node" id="role">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@borderedNodeMappings[name='Role']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_CUgGoDaeEeu-ke5CHXw6TA" labelSize="12" showIcon="false" workspacePath="/br.unb.cic.c2system.design/icon/UAV.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_eP4e8Di4EeuNysMt4iLPiw" name="A5" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="c2system:Agent" href="My.c2system#//@entities.1/@members.0"/>
+      <semanticElements xmi:type="c2system:Agent" href="My.c2system#//@entities.1/@members.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_eP5GADi4EeuNysMt4iLPiw" labelSize="12" showIcon="false" workspacePath="/br.unb.cic.c2system.design/icon/UAV.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_eP6UITi4EeuNysMt4iLPiw" name="A6" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="c2system:Agent" href="My.c2system#//@entities.1/@members.1"/>
+      <semanticElements xmi:type="c2system:Agent" href="My.c2system#//@entities.1/@members.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_eP6UIji4EeuNysMt4iLPiw" labelSize="12" showIcon="false" workspacePath="/br.unb.cic.c2system.design/icon/UAV.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Agent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_CUii4DaeEeu-ke5CHXw6TA" name="T1" outgoingEdges="_eP_zwDi4EeuNysMt4iLPiw" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="c2system:Team" href="My.c2system#//@entities.0"/>
+      <semanticElements xmi:type="c2system:Team" href="My.c2system#//@entities.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_CUii4TaeEeu-ke5CHXw6TA" labelSize="12" showIcon="false" labelAlignment="RIGHT" borderSize="5" borderSizeComputationExpression="5" labelPosition="node" color="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:SquareDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Team']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Team']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_eP9-gDi4EeuNysMt4iLPiw" incomingEdges="_eP_zwDi4EeuNysMt4iLPiw" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="c2system:Team" href="My.c2system#//@entities.1"/>
+      <semanticElements xmi:type="c2system:Team" href="My.c2system#//@entities.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_eP9-gTi4EeuNysMt4iLPiw" labelSize="12" showIcon="false" labelAlignment="RIGHT" borderSize="5" borderSizeComputationExpression="5" labelPosition="node" color="255,255,255">
+        <customFeatures>color</customFeatures>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:SquareDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Team']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@nodeMappings[name='Team']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CUjxADaeEeu-ke5CHXw6TA" sourceNode="_CUeRcDaeEeu-ke5CHXw6TA" targetNode="_CUe4gjaeEeu-ke5CHXw6TA">
+      <target xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.0"/>
+      <semanticElements xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__7cpwDj8EeuNysMt4iLPiw" targetArrow="NoDecoration" size="2" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__7cpwTj8EeuNysMt4iLPiw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CUjxBTaeEeu-ke5CHXw6TA" sourceNode="_CUe4gjaeEeu-ke5CHXw6TA" targetNode="_CUffkTaeEeu-ke5CHXw6TA">
+      <target xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.1"/>
+      <semanticElements xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__7dQ0jj8EeuNysMt4iLPiw" targetArrow="NoDecoration" size="2" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__7dQ0zj8EeuNysMt4iLPiw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CUkYFDaeEeu-ke5CHXw6TA" sourceNode="_CUffkTaeEeu-ke5CHXw6TA" targetNode="_CUfflDaeEeu-ke5CHXw6TA">
+      <target xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.2"/>
+      <semanticElements xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__7dQ1jj8EeuNysMt4iLPiw" targetArrow="NoDecoration" size="2" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__7dQ1zj8EeuNysMt4iLPiw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CUk_IjaeEeu-ke5CHXw6TA" sourceNode="_CUfflDaeEeu-ke5CHXw6TA" targetNode="_CUeRcDaeEeu-ke5CHXw6TA">
+      <target xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.3"/>
+      <semanticElements xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__7d34Dj8EeuNysMt4iLPiw" targetArrow="NoDecoration" size="2" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__7d34Tj8EeuNysMt4iLPiw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_eP_zwDi4EeuNysMt4iLPiw" sourceNode="_CUii4DaeEeu-ke5CHXw6TA" targetNode="_eP9-gDi4EeuNysMt4iLPiw">
+      <target xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.4"/>
+      <semanticElements xmi:type="c2system:Link" href="My.c2system#//@approaches.0/@links.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__7d35Dj8EeuNysMt4iLPiw" targetArrow="NoDecoration" size="2" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__7d35Tj8EeuNysMt4iLPiw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@edgeMappings[name='Link']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="__J7EADZ8Eeu-ke5CHXw6TA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/br.unb.cic.c2system.design/description/c2system.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer"/>
+    <target xmi:type="c2system:C2System" href="My.c2system#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

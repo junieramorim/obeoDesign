@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c2system:C2System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c2system="http://www.example.org/c2system">
+  <entities xsi:type="c2system:Team" label="T0" operates="//@approaches.2">
+    <members xsi:type="c2system:Team" label="T1" id="1" roles="//@approaches.2/@roles.8 //@approaches.2/@roles.4 //@approaches.2/@roles.0" operates="//@approaches.0">
+      <members xsi:type="c2system:Agent" label="A1.1" id="11" POC="true" roles="//@approaches.3/@roles.8 //@approaches.3/@roles.4 //@approaches.3/@roles.0"/>
+      <members xsi:type="c2system:Agent" label="A1.2" id="12" roles="//@approaches.3/@roles.9 //@approaches.3/@roles.5 //@approaches.3/@roles.1"/>
+      <members xsi:type="c2system:Agent" label="A1.3" id="13" roles="//@approaches.3/@roles.10 //@approaches.3/@roles.6 //@approaches.3/@roles.2"/>
+      <members xsi:type="c2system:Agent" label="A1.4" id="14" roles="//@approaches.3/@roles.11 //@approaches.3/@roles.7 //@approaches.3/@roles.3"/>
+    </members>
+    <members xsi:type="c2system:Team" label="T2" id="2" roles="//@approaches.2/@roles.1 //@approaches.2/@roles.5" operates="//@approaches.0">
+      <members xsi:type="c2system:Agent" label="A2.1" id="21" POC="true" roles="//@approaches.0/@roles.1 //@approaches.0/@roles.2 //@approaches.0/@roles.0"/>
+      <members xsi:type="c2system:Agent" label="A2.2" id="22" POC="true" roles="//@approaches.0/@roles.1 //@approaches.0/@roles.2 //@approaches.0/@roles.0"/>
+    </members>
+    <members xsi:type="c2system:Team" label="T3" id="3" roles="//@approaches.2/@roles.2 //@approaches.2/@roles.6" operates="//@approaches.2">
+      <members xsi:type="c2system:Agent" label="A3.1" id="31" POC="true" roles="//@approaches.4/@roles.1 //@approaches.4/@roles.2 //@approaches.4/@roles.0"/>
+      <members xsi:type="c2system:Agent" label="A3.2" id="32" roles="//@approaches.4/@roles.4 //@approaches.4/@roles.5 //@approaches.4/@roles.3"/>
+      <members xsi:type="c2system:Agent" label="A3.3" id="33" roles="//@approaches.4/@roles.7 //@approaches.4/@roles.8 //@approaches.4/@roles.6"/>
+      <members xsi:type="c2system:Agent" label="A3.4" id="34" roles="//@approaches.4/@roles.10 //@approaches.4/@roles.11 //@approaches.4/@roles.9"/>
+    </members>
+    <members xsi:type="c2system:Team" label="T4" id="4" roles="//@approaches.2/@roles.3 //@approaches.2/@roles.7" operates="//@approaches.1">
+      <members xsi:type="c2system:Agent" label="A4.1" id="41" POC="true" roles="//@approaches.1/@roles.3 //@approaches.1/@roles.4"/>
+      <members xsi:type="c2system:Agent" label="A4.2" id="42" roles="//@approaches.1/@roles.0"/>
+      <members xsi:type="c2system:Agent" label="A4.3" id="43" roles="//@approaches.1/@roles.1"/>
+      <members xsi:type="c2system:Agent" label="A4.4" id="44" roles="//@approaches.1/@roles.2"/>
+      <members xsi:type="c2system:Agent" label="A4.5" id="45" roles="//@approaches.1/@roles.5"/>
+      <members xsi:type="c2system:Agent" label="A4.6" id="46" roles="//@approaches.1/@roles.6"/>
+    </members>
+  </entities>
+  <approaches type="CONFLICTED" label="CONFLICTED1">
+    <roles xsi:type="c2system:TaskPerformer" label="TP21"/>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM21"/>
+    <roles xsi:type="c2system:TaskAllocator" label="TA21"/>
+  </approaches>
+  <approaches type="COORDINATED" label="COORDINATED1">
+    <roles xsi:type="c2system:TaskPerformer" label="TP42"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP43"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP44"/>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM41"/>
+    <roles xsi:type="c2system:TaskAllocator" label="TA41">
+      <channels target="//@entities.0/@members.3/@members.1"/>
+      <channels target="//@entities.0/@members.3/@members.2"/>
+      <channels target="//@entities.0/@members.3/@members.3"/>
+      <channels target="//@entities.0/@members.3/@members.4"/>
+      <channels target="//@entities.0/@members.3/@members.5"/>
+    </roles>
+    <roles xsi:type="c2system:TaskPerformer" label="TP45"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP46"/>
+  </approaches>
+  <approaches label="DECONFLICTED_T0">
+    <roles xsi:type="c2system:TaskPerformer" label="TP1"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP2"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP3"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP4"/>
+    <roles xsi:type="c2system:TaskAllocator" label="TA1"/>
+    <roles xsi:type="c2system:TaskAllocator" label="TA2">
+      <channels target="//@entities.0/@members.2"/>
+    </roles>
+    <roles xsi:type="c2system:TaskAllocator" label="TA3">
+      <channels target="//@entities.0/@members.3"/>
+    </roles>
+    <roles xsi:type="c2system:TaskAllocator" label="TA4">
+      <channels target="//@entities.0/@members.0"/>
+    </roles>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM1">
+      <channels target="//@entities.0/@members.1"/>
+    </roles>
+  </approaches>
+  <approaches type="EDGE" label="EDGE1">
+    <roles xsi:type="c2system:TaskPerformer" label="TP11"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP12"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP13"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP14"/>
+    <roles xsi:type="c2system:TaskAllocator" label="TA11"/>
+    <roles xsi:type="c2system:TaskAllocator" label="TA12"/>
+    <roles xsi:type="c2system:TaskAllocator" label="TA13"/>
+    <roles xsi:type="c2system:TaskAllocator" label="TA14"/>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM11">
+      <channels target="//@entities.0/@members.0/@members.1"/>
+      <channels target="//@entities.0/@members.0/@members.2"/>
+    </roles>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM12">
+      <channels target="//@entities.0/@members.0/@members.2"/>
+      <channels target="//@entities.0/@members.0/@members.3"/>
+    </roles>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM13">
+      <channels target="//@entities.0/@members.0/@members.3"/>
+    </roles>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM14">
+      <channels target="//@entities.0/@members.0/@members.0"/>
+    </roles>
+  </approaches>
+  <approaches label="DECONFLICTED3">
+    <roles xsi:type="c2system:TaskPerformer" label="TP31"/>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM31">
+      <channels target="//@entities.0/@members.2/@members.1"/>
+    </roles>
+    <roles xsi:type="c2system:TaskAllocator" label="TA31"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP32"/>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM32">
+      <channels target="//@entities.0/@members.2/@members.2"/>
+    </roles>
+    <roles xsi:type="c2system:TaskAllocator" label="TA32"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP33"/>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM33">
+      <channels target="//@entities.0/@members.2/@members.3"/>
+    </roles>
+    <roles xsi:type="c2system:TaskAllocator" label="TA33"/>
+    <roles xsi:type="c2system:TaskPerformer" label="TP34"/>
+    <roles xsi:type="c2system:C2ApproachManager" label="C2AM34">
+      <channels target="//@entities.0/@members.2/@members.0"/>
+    </roles>
+    <roles xsi:type="c2system:TaskAllocator" label="TA34"/>
+  </approaches>
+</c2system:C2System>

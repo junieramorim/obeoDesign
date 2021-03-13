@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="c2system" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="c2System" domainClass="c2system::C2System" enablePopupBars="true">
+      <metamodel href="http://www.example.org/c2system#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings/>
+        <edgeMappings name="connection" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@containerMappings[name='Entities']/@subNodeMappings[name='Agent']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@containerMappings[name='Entities']/@subNodeMappings[name='Agent']" targetFinderExpression="aql:self.tgt" sourceFinderExpression="aql:self.src" domainClass="c2system::Connection" useDomainElement="true">
+          <conditionnalStyles predicateExpression="aql:self.oclIsKindOf(c2system::Inter)">
+            <style sourceArrow="FillDiamond" targetArrow="FillDiamond" sizeComputationExpression="5" endsCentering="Both">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+              <centerLabelStyleDescription labelSize="12">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.oclIsKindOf(c2system::Intra)">
+            <style targetArrow="NoDecoration" sizeComputationExpression="4">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              <centerLabelStyleDescription labelSize="12">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              </centerLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+        </edgeMappings>
+        <containerMappings name="Entities" semanticCandidatesExpression="aql:self.entities" domainClass="c2system::Team">
+          <subNodeMappings name="Agent" semanticCandidatesExpression="feature:members" domainClass="c2system::Agent">
+            <borderedNodeMappings name="Role" semanticCandidatesExpression="aql:self.roleassignment" domainClass="c2system::Role">
+              <conditionnalStyles predicateExpression="aql:self.type.toString().equalsIgnoreCase(c2system::RoleType::TASK_PERFORMER.toString())">
+                <style xsi:type="style:LozengeNodeDescription" labelSize="1" showIcon="false" labelExpression="feature:type" hideLabelByDefault="true" sizeComputationExpression="2" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <forbiddenSides>WEST</forbiddenSides>
+                  <forbiddenSides>SOUTH</forbiddenSides>
+                  <forbiddenSides>NORTH</forbiddenSides>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+                </style>
+              </conditionnalStyles>
+              <conditionnalStyles predicateExpression="aql:self.type.toString().equalsIgnoreCase(c2system::RoleType::TASK_ALLOCATOR.toString())">
+                <style xsi:type="style:DotDescription" labelSize="12" showIcon="false" labelExpression="feature:type" hideLabelByDefault="true" sizeComputationExpression="2" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <forbiddenSides>WEST</forbiddenSides>
+                  <forbiddenSides>SOUTH</forbiddenSides>
+                  <forbiddenSides>NORTH</forbiddenSides>
+                  <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+                </style>
+              </conditionnalStyles>
+              <conditionnalStyles predicateExpression="aql:self.type.toString().equalsIgnoreCase(c2system::RoleType::C2_APPROACH_MANAGER.toString())">
+                <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="feature:type" hideLabelByDefault="true" sizeComputationExpression="2" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <forbiddenSides>WEST</forbiddenSides>
+                  <forbiddenSides>SOUTH</forbiddenSides>
+                  <forbiddenSides>NORTH</forbiddenSides>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+                </style>
+              </conditionnalStyles>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="13" showIcon="false" labelAlignment="RIGHT" sizeComputationExpression="7" resizeKind="NSEW" arcWidth="1" arcHeight="1" roundedCorner="true" workspacePath="/br.unb.cic.c2system.design/icon/UAV.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subContainerMappings name="Team" semanticCandidatesExpression="feature:members" domainClass="c2system::Team" reusedNodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@containerMappings[name='Entities']/@subNodeMappings[name='Agent']" reusedContainerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='c2System']/@defaultLayer/@containerMappings[name='Entities']">
+            <subNodeMappings name="Role" semanticCandidatesExpression="aql:self.roleassignment" domainClass="c2system::Role">
+              <conditionnalStyles predicateExpression="aql:self.type.toString().equalsIgnoreCase(c2system::RoleType::TASK_PERFORMER.toString())">
+                <style xsi:type="style:LozengeNodeDescription" labelSize="1" showIcon="false" labelExpression="feature:type" labelAlignment="RIGHT" hideLabelByDefault="true" sizeComputationExpression="2" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <forbiddenSides>WEST</forbiddenSides>
+                  <forbiddenSides>SOUTH</forbiddenSides>
+                  <forbiddenSides>NORTH</forbiddenSides>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+                </style>
+              </conditionnalStyles>
+              <conditionnalStyles predicateExpression="aql:self.type.toString().equalsIgnoreCase(c2system::RoleType::TASK_ALLOCATOR.toString())">
+                <style xsi:type="style:DotDescription" labelSize="1" showIcon="false" labelExpression="feature:type" labelAlignment="RIGHT" hideLabelByDefault="true" sizeComputationExpression="2" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <forbiddenSides>WEST</forbiddenSides>
+                  <forbiddenSides>SOUTH</forbiddenSides>
+                  <forbiddenSides>NORTH</forbiddenSides>
+                  <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+                </style>
+              </conditionnalStyles>
+              <conditionnalStyles predicateExpression="aql:self.type.toString().equalsIgnoreCase(c2system::RoleType::C2_APPROACH_MANAGER.toString())">
+                <style xsi:type="style:SquareDescription" labelSize="1" showIcon="false" labelExpression="feature:type" labelAlignment="RIGHT" hideLabelByDefault="true" sizeComputationExpression="2" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <forbiddenSides>WEST</forbiddenSides>
+                  <forbiddenSides>SOUTH</forbiddenSides>
+                  <forbiddenSides>NORTH</forbiddenSides>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+                </style>
+              </conditionnalStyles>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="3" labelSize="16" showIcon="false" labelExpression="aql:self.name.concat('('+self.operates.type+')')" roundedCorner="true" backgroundStyle="GradientTopToBottom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="3" labelSize="16" showIcon="false" labelExpression="aql:self.name.concat('('+self.operates.type+')')" roundedCorner="true" backgroundStyle="GradientTopToBottom">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+      <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="br.unb.cic.c2system.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

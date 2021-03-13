@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" name="c2system" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="c2SystemDiagram" domainClass="c2system::C2System" enablePopupBars="true">
+      <metamodel href="http://www.example.org/c2system#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="team" semanticCandidatesExpression="feature:label" domainClass="c2system::Team"/>
+        <nodeMappings name="agent" semanticCandidatesExpression="feature:id" domainClass="c2system::Agent"/>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="br.unb.cic.c2system.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

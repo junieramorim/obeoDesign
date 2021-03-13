@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/br.unb.cic.c2system/src-gen" creationIcons="false"
+    editDirectory="/br.unb.cic.c2system.edit/src-gen" editorDirectory="/br.unb.cic.c2system.editor/src-gen"
+    modelPluginID="br.unb.cic.c2system" modelName="C2system" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>c2system.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="C2system" basePackage="br.unb.cic" disposableProviderFactory="true"
+      ecorePackage="c2system.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="c2system.ecore#//RoleType">
+      <genEnumLiterals ecoreEnumLiteral="c2system.ecore#//RoleType/C2_APPROACH_MANAGER"/>
+      <genEnumLiterals ecoreEnumLiteral="c2system.ecore#//RoleType/TASK_ALLOCATOR"/>
+      <genEnumLiterals ecoreEnumLiteral="c2system.ecore#//RoleType/TASK_PERFORMER"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="c2system.ecore#//C2AType">
+      <genEnumLiterals ecoreEnumLiteral="c2system.ecore#//C2AType/CONFLICTED"/>
+      <genEnumLiterals ecoreEnumLiteral="c2system.ecore#//C2AType/DECONFLICTED"/>
+      <genEnumLiterals ecoreEnumLiteral="c2system.ecore#//C2AType/COORDINATED"/>
+      <genEnumLiterals ecoreEnumLiteral="c2system.ecore#//C2AType/COLLABORATIVE"/>
+      <genEnumLiterals ecoreEnumLiteral="c2system.ecore#//C2AType/EDGE"/>
+    </genEnums>
+    <genClasses ecoreClass="c2system.ecore#//Mission">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Mission/completeness"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//Mission/tasks"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//Agent"/>
+    <genClasses ecoreClass="c2system.ecore#//Team">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//Team/members"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference c2system.ecore#//Team/operates"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//Task">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Task/completed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Task/cost"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Task/xPos"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Task/yPos"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//C2Approach">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//C2Approach/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//C2Approach/roles"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference c2system.ecore#//C2Approach/applies"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//C2Approach/connections"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//Environment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Environment/sensorDegradation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Environment/description"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//C2System">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//C2System/entities"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//C2System/missions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//C2System/environment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//C2System/approaches"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//C2System/allocationSet"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="c2system.ecore#//Entity">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference c2system.ecore#//Entity/roleassignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Entity/poc"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Entity/leader"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//Role">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Role/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference c2system.ecore#//Role/entity"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//NamedClass">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//NamedClass/name"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//Allocable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Allocable/id"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//Allocation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference c2system.ecore#//Allocation/handler"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference c2system.ecore#//Allocation/assignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Allocation/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//Allocation/timestamp"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//Connection">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference c2system.ecore#//Connection/src"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference c2system.ecore#//Connection/tgt"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//AllocationSet">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference c2system.ecore#//AllocationSet/allocations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute c2system.ecore#//AllocationSet/name"/>
+    </genClasses>
+    <genClasses ecoreClass="c2system.ecore#//Intra"/>
+    <genClasses ecoreClass="c2system.ecore#//Inter"/>
+  </genPackages>
+</genmodel:GenModel>
